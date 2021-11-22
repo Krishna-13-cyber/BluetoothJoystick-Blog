@@ -89,7 +89,9 @@ To analyse whether we have implemented the right code, we run multiple times to 
 To implement in a game makes it a complete one,using it as a controller gives us a great experience.The only drawback stays back is that it can be used only for 2-D games(basic games),for a simple up-down or left-right task.This can be achieved by this joystick comfortably.
 Here are two games we controlled with our joystick and the game charachter is working seemlessly with great sync with the joystick controller
 These are the Output of the Games played with help of Joystick Module.
+
 ![Mouse-Game](https://github.com/Krishna-13-cyber/BluetoothJoystick/blob/main/docs/MouseGame.gif)
+
 ![Mouse-Game2](https://github.com/Krishna-13-cyber/BluetoothJoystick/blob/main/docs/Game2.gif)
 <!-- FUTURE WORK -->
 ## Future Work
