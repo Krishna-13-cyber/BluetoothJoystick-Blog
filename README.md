@@ -82,10 +82,12 @@ idf.py menuconfig
 
 
 ## Results and Demo
-These are the output obtained in initial stage as shown in the link attached to the below mentioned video.
+To analyse whether we have implemented the right code, we run multiple times to get the desired output.Over this period of time, there are a progress of outputs from getting the ADC values to the final stage of playing the game.Output is the right gesture to identify your execution,so in the initial part we recieve the adc values and then connect it as a mouse. These are the output obtained in initial stage as shown in the link attached to the below mentioned video.
 * [ADC Values](https://drive.google.com/file/d/1rm1N4SgXiCJK_13tnsdQ1i77aFfMDrW-/view?usp=sharing)
 * [Movement of Cursor by Joystick](https://drive.google.com/file/d/1VwI7GT10AZU_PWkB9DNiD4OaYqe5EC_o/view?usp=sharing)
 
+To implement in a game makes it a complete one,using it as a controller gives us a great experience.The only drawback stays back is that it can be used only for 2-D games(basic games),for a simple up-down or left-right task.This can be achieved by this joystick comfortably.
+Here are two games we controlled with our joystick and the game charachter is working seemlessly with great sync with the joystick controller
 These are the Output of the Games played with help of Joystick Module.
 ![Mouse-Game](https://github.com/Krishna-13-cyber/BluetoothJoystick/blob/main/docs/MouseGame.gif)
 ![Mouse-Game2](https://github.com/Krishna-13-cyber/BluetoothJoystick/blob/main/docs/Game2.gif)
