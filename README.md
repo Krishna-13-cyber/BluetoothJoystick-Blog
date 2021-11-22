@@ -34,7 +34,11 @@ With all this done, we came down to the part where we actually had to Embed the 
 We started out with the normal blink test with the ESP-32. And also started to learn the code structure of the various Bluetooth API’s and implement it. 
 Gradually setting up the Bluetooth part of our Joystick, we tested it out by connecting our Joystick to the ESP-32 as HID-Mouse and HID-Keyboard.
 For this we needed to connect our Joystick with the ESP-32 in such a way that there shouldn’t be any mistakes made while connecting the wires/jumpers. 
-Happy Blogging!!!
+
+Let us see the flowchart to get a structurized idea of the project!!!
+## Code Flowchart
+![Flowchart](https://user-images.githubusercontent.com/84867886/138583223-d8353de8-228b-41de-8cc5-d18d5cb22d7a.png)
+### Happy Blogging!!!
 <!-- GETTING STARTED -->
 ## Getting Started
 ### Prerequisites
@@ -76,8 +80,6 @@ Configuration
 idf.py menuconfig
 ```
 
-## Code Flowchart
-![Flowchart](https://user-images.githubusercontent.com/84867886/138583223-d8353de8-228b-41de-8cc5-d18d5cb22d7a.png)
 
 ## Results and Demo
 These are the output obtained in initial stage as shown in the link attached to the below mentioned video.
@@ -113,4 +115,3 @@ These are the Output of the Games played with help of Joystick Module.
 ## License
 The [License](https://github.com/Krishna-13-cyber/BluetoothJoystick/blob/main/LICENSE) Used for this Project.
 
-Happy Blogging!!!
