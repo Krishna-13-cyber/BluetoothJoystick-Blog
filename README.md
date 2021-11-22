@@ -12,7 +12,7 @@ The aim of this project is to make a Bluetooth Joystick using ESP32 which establ
 
 ## Domains of the Project
 In this project, we study the ESP-IDF framework, which is for the esp-32. The framework has some exclusive features and functions which enable the esp-32 of its vast reach. Espressif's official IoT Development Framework for the ESP32, ESP32-S, and ESP32-C series of SoCs is a boon to the embedded world. It provides a self-sufficient SDK for any generic application development on these platforms, using programming languages such as C and C++.
-![ESP-IDF](https://github.com/Krishna-13-cyber/BluetoothJoystick-Blog/blob/main/esp-idf)
+![ESP-IDF](https://github.com/Krishna-13-cyber/BluetoothJoystick-Blog/blob/main/esp-idf.png)
 FreeRtos is another domain that plays a vital role in embedded systems, which is used as the real-time operating system for microcontrollers that makes small, low-power edge devices easy to program, deploy, secure, connect, and manage.FreeRTOS) is an operating system for microcontrollers that makes small, low-power edge devices easy to program, deploy, secure, connect, and manage.
 ![Free-Rtos](https://github.com/Krishna-13-cyber/BluetoothJoystick-Blog/blob/main/freertos.jpeg)
 We also get to know about the wireless connections especially Bluetooth in this project. The range, its transmission efficiency, the level of modification, advancement, and upgrade with each version of BlueTooth connectivity. In this project, the emphasis is on making a wireless setup,
