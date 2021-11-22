@@ -87,7 +87,7 @@ These are the output obtained in initial stage as shown in the link attached to 
 * [Movement of Cursor by Joystick](https://drive.google.com/file/d/1VwI7GT10AZU_PWkB9DNiD4OaYqe5EC_o/view?usp=sharing)
 
 These are the Output of the Games played with help of Joystick Module.
-<p align="center"> ![Mouse-Game](https://github.com/Krishna-13-cyber/BluetoothJoystick/blob/main/docs/MouseGame.gif) </p>
+![Mouse-Game](https://github.com/Krishna-13-cyber/BluetoothJoystick/blob/main/docs/MouseGame.gif)
 ![Mouse-Game2](https://github.com/Krishna-13-cyber/BluetoothJoystick/blob/main/docs/Game2.gif)
 <!-- FUTURE WORK -->
 ## Future Work
