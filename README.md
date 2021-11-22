@@ -25,14 +25,16 @@ ESP-32 has the feature of BlueTooth connectivity which has the version v4.2.To s
 ## Some Stimulating Stuff in Store
 Bluetooth Joystick!
 Controller or a Joystick! Yes we might have came across at least once in our lifetimes. But the simplicity felt in using it was the exact opposite when we got started to make it. But the odds were with us as the project was under the Eklavya Mentorship. Which means the project was not only a product of our hardworking, research and dedication but also of the experience and guidance of our mentors Gautam and Dhairya who made sure we were on the right track. Getting back to the project, we started the project by familiarising ourselves with what we were getting into. So the initial stage was all about research and learning about all the Bluetooth terminologies as we aimed to make it wireless and nothing better than Bluetooth for the easiest connection of the master and slave devices.We learned about the range, its transmission efficiency, the level of modification, advancement, and upgrade with each version of BlueTooth connectivity We moved on to the ESP-IDF Framework as the heart of our project was ESP-32. Now, why ESP-32? Why not something else? Well the project will speak for itself, give it a read till the end!
+
 Espressif's official loT Development Framework for the ESP32, ESP32-S, and ESP32-C series of SoCs is a boon to the embedded world and makes the coding easier as against Arduino IDE.It provides a self-sufficient SDK for any generic application development on these platforms by using programming languages such as C and C++.This was crucial for combining the wireless communication along with embedding the code into our joystick.
 The operating system which we implemented was FreeRTOS. FreeRTOS is another domain that plays a vital role in embedded systems, which is used as the real-time operating system for microcontrollers that makes small, low-power edge devices easy to program, deploy, secure, connect, and manage.
-After a few weeks of soaking in the required information ,we headed towards the hardware part.
-We learnt about the various connections, played with a few circuits on the breadboard. It was also essential to learn about the GPIO System of the ESP-32. 
+
+After a few weeks of soaking in the required information ,we headed towards the hardware part.We learnt about the various connections, played with a few circuits on the breadboard. It was also essential to learn about the GPIO System of the ESP-32. 
 With all this done, we came down to the part where we actually had to Embed the code into the ESP-32.
 We started out with the normal blink test with the ESP-32. And also started to learn the code structure of the various Bluetooth API’s and implement it. 
 Gradually setting up the Bluetooth part of our Joystick, we tested it out by connecting our Joystick to the ESP-32 as HID-Mouse and HID-Keyboard.
 For this we needed to connect our Joystick with the ESP-32 in such a way that there shouldn’t be any mistakes made while connecting the wires/jumpers. 
+Happy Blogging!!!
 <!-- GETTING STARTED -->
 ## Getting Started
 ### Prerequisites
