@@ -74,7 +74,7 @@ void adc_task(void *arg)
               vTaskDelay(10 / portTICK_PERIOD_MS);  
   
     	      #endif
-      ```
+  ```
 ###  Happy Blogging!!!
 <!-- GETTING STARTED -->
 ## Getting Started
