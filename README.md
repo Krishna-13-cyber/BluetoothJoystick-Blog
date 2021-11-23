@@ -46,7 +46,7 @@ For this we needed to connect our Joystick with the ESP-32 in such a way that th
 
 * When we have these values in hand we use the esp functions to send the mouse, its mouse speed and direction according to the condition.if the values are ranging in 0-1000 the function (esp_hidd_send_mouse_value) sends the mouse values such that the cursor above and when in the range of 4000-4095 the cursor goes down.The movement of cursor is the main output which we are looking for as it simply tells that if the cursor moves,all the games working or played by the mouse can be controlled by our joytick because the game is synchronized with the mouse functions which is controlled by our joystick in this project.
 
-##### Just have a look at the snippet things will be on a much clearer note......
+##### Just have a look at the code snippet,things will be on a much clearer note......
 ```
 void adc_task(void *arg)
 {
