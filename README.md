@@ -21,7 +21,7 @@ FreeRtos is another domain that plays a vital role in embedded systems, which is
 
 We also get to know about the wireless connections especially Bluetooth in this project. The range, its transmission efficiency, the level of modification, advancement, and upgrade with each version of BlueTooth connectivity. In this project, the emphasis is on making a wireless setup,
 ESP-32 has the feature of BlueTooth connectivity which has the version v4.2.To start off we connect the esp-32(microcontroller) as a mouse and give it a basic functionality that on the press of any key on the keyboard, the cursor according to the condition of the code will go up or down.
-
+![BlueTooth Feature](https://github.com/Krishna-13-cyber/BluetoothJoystick-Blog/blob/main/ble%20icon.jpeg)
 ## Some Stimulating Stuff in Store
  Bluetooth Joystick!
 Controller or a Joystick! Yes we might have came across at least once in our lifetimes. But the simplicity felt in using it was the exact opposite when we got started to make it. But the odds were with us as the project was under the Eklavya Mentorship. Which means the project was not only a product of our hardworking, research and dedication but also of the experience and guidance of our mentors Gautam and Dhairya who made sure we were on the right track. Getting back to the project, we started the project by familiarising ourselves with what we were getting into. 
