@@ -1,5 +1,5 @@
 # BluetoothJoystick-Blog
-This is the blog about our Eklavya Mentorship Project, Bluetooth Joystick.A wireless joystick with ESP-32 microcontroller and Dual Axis Joystick Module using the Bluetooth connectivity.
+This is a blog about our Eklavya Mentorship Project, Bluetooth Joystick.A wireless joystick with ESP-32 microcontroller and Dual Axis Joystick Module using the Bluetooth connectivity.
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
