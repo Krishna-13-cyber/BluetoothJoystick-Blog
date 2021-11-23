@@ -39,7 +39,11 @@ For this we needed to connect our Joystick with the ESP-32 in such a way that th
 #### Let us see the flowchart to get a structurized idea of the project!!!
 ![Flowchart](https://user-images.githubusercontent.com/84867886/138583223-d8353de8-228b-41de-8cc5-d18d5cb22d7a.png)
 
+### Emphasis on the main body of the code
+As previously we have briefed about the ADC concept and its usage.Its very imporatant in embedded system to understand the conecpt of ADC values, why is it necessary,why does it a range of values when there are only two states to symbolize a high or low value.These questions are to be addressed on your own after reading and grasping the concepts of ADC voltage values.So we use a function (adc1_get_raw) to get the ADC voltage values from the required ADC channel.We mention the channel number and ADC channel as we connected the (ESP-32) pin to the joystick via jumpers.Now we have the instantaneous values we are recieving but how is its nature,how are the values changing.For this we know that for extreme movements we have end values that is 4095 for the backword movement and 0 in the forward movement,then the question will be why have we taken a range instead of single values. So the answer is that we sometimes get  noise and often deviate from the desired value when we move the joystick in a specific direction which mean if that particular value doesnt turn up it will not be able to understand it is a forward or backward and willbe considered stationary ,So instead of 0 or 4095 it comes in ranges of 0-1000 or 4000-4095.These ranges have been taken after multiple testing.
+When we have these values in hand we use the esp functions to send the mouse, its mouse speed and direction according to the condition.if the values are ranging in 0-1000 the function (esp_hidd_send_mouse_value) sends the mouse values such that the cursor above and when in the range of 4000-4095 the cursor goes down.The movement of cursor is the main output which we are looking for as it simply tells that if the cursor moves,all the games working or played by the mouse can be controlled by our joytick because the game is synchronized with the mouse functions which is controlled by our joystick in this project.
 
+##### Just have a look at the snippet things will be on a much clearer note......
 ```
 void adc_task(void *arg)
 {
