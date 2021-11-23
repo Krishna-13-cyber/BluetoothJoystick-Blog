@@ -39,6 +39,42 @@ For this we needed to connect our Joystick with the ESP-32 in such a way that th
 #### Let us see the flowchart to get a structurized idea of the project!!!
 ![Flowchart](https://user-images.githubusercontent.com/84867886/138583223-d8353de8-228b-41de-8cc5-d18d5cb22d7a.png)
 
+
+```
+void adc_task(void *arg)
+{
+
+	    adc1_config_width(ADC_WIDTH_BIT_12);
+    	    adc1_config_channel_atten(ADC1_CHANNEL_3,ADC_ATTEN_DB_11); 
+    	    int val1 = adc1_get_raw(ADC1_CHANNEL_3);
+      
+            while(1)
+	{	
+    
+                val1 = adc1_get_raw(ADC1_CHANNEL_3);
+  		#ifdef CONFIG_MODULE_USEMOUSE
+      		if(val1>=0&&val1<=1000)
+       {
+		    esp_hidd_send_mouse_value(hid_conn_id,0,0,-MOUSE_SPEED,0);//This is where the actual parameters are supplied
+		    ESP_LOGI(CONSOLE_UART_TAG,"Mouse: Up");
+	}
+       
+      	        else if(val1>=4000&&val1<=4095)
+       {
+		    esp_hidd_send_mouse_value(hid_conn_id,0,0,MOUSE_SPEED,0);//This is where the actual parameters are supplied
+		    ESP_LOGI(CONSOLE_UART_TAG,"Mouse:Down");
+	} 
+	        else
+       {
+		    esp_hidd_send_mouse_value(hid_conn_id,0,0,0,0);//This is where the actual parameters are supplied
+		    ESP_LOGI(CONSOLE_UART_TAG,"Mouse: Stationary");
+	}
+	      printf("\n");
+ 
+              vTaskDelay(10 / portTICK_PERIOD_MS);  
+  
+    	      #endif
+      ```
 ###  Happy Blogging!!!
 <!-- GETTING STARTED -->
 ## Getting Started
@@ -97,7 +133,7 @@ These are the Output of the Games played with help of Joystick Module.
 
 <!-- FUTURE WORK -->
 ## Future Work
- ### These are current establishments and some future domains which are to be covered soon
+ ### These are current establishments and some future domains which are to be covered soon!
 - [x] Establishing BlueTooth Connection
 - [x] Obtaining ADC Values
 - [x] Moving the Cursor 
